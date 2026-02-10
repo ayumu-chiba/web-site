@@ -2,11 +2,9 @@ var hamburger = $('.hamburger-menu');
 $('.hamburger-button').on('click', function () {
   hamburger.toggleClass('hamburger-menu-active');
 });
-
 $(window).on('resize', function () {
   hamburger.removeClass('hamburger-menu-active');
 });
-
 
 $(function () {
   $('.js-gallery-slider').slick({
@@ -16,7 +14,6 @@ $(function () {
     fade: true
   });
 });
-
 
 $('.faq__question').on('click', function () {
   const $item = $(this).closest('.faq__item');
