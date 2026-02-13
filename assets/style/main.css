@@ -992,7 +992,7 @@ picture img {
 }
 
 .news__list {
-  border-top: .125rem solid #dddddd;
+  border-top: .093rem solid #dddddd;
 }
 
 @media (min-width: 768px) {
@@ -1004,7 +1004,7 @@ picture img {
 
 .news__list li {
   padding: 1.03rem 0.25rem 0.57rem 0.05rem;
-  border-bottom: .125rem solid #dddddd;
+  border-bottom: .093rem solid #dddddd;
   line-height: 1.74;
 }
 
