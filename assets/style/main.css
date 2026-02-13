@@ -1659,7 +1659,7 @@ picture img {
 
 .spec__table th,
 .spec__table td {
-  border: 0.0625rem solid #dddddd;
+  border: 0.09375rem solid #dddddd;
   text-align: left;
 }
 
