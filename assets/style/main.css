@@ -1626,6 +1626,7 @@ picture img {
   }
 }
 
+/* 修正４　見出しの装飾用罫線の太際に差異が見られる */
 .spec__label::before {
   content: "";
   width: 0.22rem;
