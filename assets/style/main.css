@@ -1626,13 +1626,14 @@ picture img {
 
 .spec__label::before {
   content: "";
-  width: 0.2rem;
+  width: 0.22rem;
   height: 1.8rem;
   background-color: #168352;
 }
 
 @media (min-width: 768px) {
   .spec__label::before {
+    width: 0.27rem;
     height: 2.5rem;
   }
 }
@@ -1664,6 +1665,7 @@ picture img {
 }
 
 @media (min-width: 768px) {
+
   .spec__table th,
   .spec__table td {
     text-align: left;
