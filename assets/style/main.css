@@ -991,6 +991,7 @@ picture img {
   }
 }
 
+/* 修正２　お知らせのリストアイテムのボーダーの太さに差異 */
 .news__list {
   border-top: .093rem solid #dddddd;
 }
@@ -1002,6 +1003,7 @@ picture img {
   }
 }
 
+/* 修正２　お知らせのリストアイテムのボーダーの太さに差異 */
 .news__list li {
   padding: 1.03rem 0.25rem 0.57rem 0.05rem;
   border-bottom: .093rem solid #dddddd;
