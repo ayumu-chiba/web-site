@@ -1546,7 +1546,7 @@ picture img {
 
 .product-price__amount {
   font-size: 2rem;
-  color: #000;
+  color: #168352;
   line-height: 1;
 }
 
@@ -1558,6 +1558,7 @@ picture img {
 
 .product-price__tax {
   font-size: 1rem;
+  color: #000;
 }
 
 /* spec */
