@@ -993,7 +993,7 @@ picture img {
 
 /* 修正２　お知らせのリストアイテムのボーダーの太さに差異 */
 .news__list {
-  border-top: .093rem solid #dddddd;
+  border-top: 1.5px solid #dddddd;
 }
 
 @media (min-width: 768px) {
@@ -1006,7 +1006,7 @@ picture img {
 /* 修正２　お知らせのリストアイテムのボーダーの太さに差異 */
 .news__list li {
   padding: 1.03rem 0.25rem 0.57rem 0.05rem;
-  border-bottom: .093rem solid #dddddd;
+  border-bottom: 1.5px solid #dddddd;
   line-height: 1.74;
 }
 
