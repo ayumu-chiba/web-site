@@ -1362,6 +1362,10 @@ picture img {
   }
 }
 
+.gallery__item:nth-child(4) img {
+  border: 2px solid #dddddd;
+}
+
 .gallery__slider {
   position: relative;
   overflow: hidden;
@@ -1372,7 +1376,7 @@ picture img {
   bottom: 0rem;
   left: 44.8%;
   display: flex;
-  gap: 0rem;
+  gap: .2rem;
   z-index: 5;
   width: 100%;
   max-width: 2.5rem;
