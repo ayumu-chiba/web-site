@@ -1633,14 +1633,14 @@ picture img {
 
 .spec__label::before {
   content: "";
-  width: 2px;
+  width: 2.5px;
   height: 1.8rem;
   background-color: #168352;
 }
 
 @media (min-width: 768px) {
   .spec__label::before {
-    width: 2.5px;
+    width: 3px;
     height: 2.5rem;
   }
 }
