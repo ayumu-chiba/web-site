@@ -1665,10 +1665,9 @@ picture img {
   border: 0.0625rem solid #dddddd;
 }
 
-/* 修正３　表組のボーダーの太さに差異が見られる */
 .spec__table th,
 .spec__table td {
-  border: 0.09375rem solid #dddddd;
+  border: 1px solid #dddddd;
   text-align: left;
 }
 
@@ -1676,6 +1675,7 @@ picture img {
   .spec__table th,
   .spec__table td {
     text-align: left;
+    border: 1.5px solid #dddddd;
   }
 }
 
