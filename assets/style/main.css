@@ -1564,7 +1564,7 @@ picture img {
 /* spec */
 .spec {
   width: 100%;
-  padding: 0.3rem 1rem 4.1rem;
+  padding: 0.3rem 1rem 2.7rem;
 }
 
 @media (min-width: 768px) {
@@ -1631,17 +1631,16 @@ picture img {
   }
 }
 
-/* 修正４　見出しの装飾用罫線の太際に差異が見られる */
 .spec__label::before {
   content: "";
-  width: 0.22rem;
+  width: 2px;
   height: 1.8rem;
   background-color: #168352;
 }
 
 @media (min-width: 768px) {
   .spec__label::before {
-    width: 0.27rem;
+    width: 2.5px;
     height: 2.5rem;
   }
 }
